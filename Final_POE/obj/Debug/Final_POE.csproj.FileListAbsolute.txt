@@ -1,0 +1,66 @@
+C:\Users\Morake\source\repos\Final_POE\bin\Debug\Final_POE.exe.config
+C:\Users\Morake\source\repos\Final_POE\bin\Debug\Final_POE.exe
+C:\Users\Morake\source\repos\Final_POE\bin\Debug\Final_POE.pdb
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.csproj.AssemblyReference.cache
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Expenses.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeRentOrBuy.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\MainWindow.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\ReadMeFile.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\App.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE_MarkupCompile.cache
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE_MarkupCompile.lref
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Expenses.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeRentOrBuy.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\MainWindow.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\ReadMeFile.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.g.resources
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.Properties.Resources.resources
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.csproj.GenerateResource.cache
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.csproj.CoreCompileInputs.cache
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.exe
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Final_POE.pdb
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeLoan.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeRent.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Savings.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleLoan.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleRent.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleRentOrBuy.g.cs
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeLoan.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\HomeRent.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\Savings.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleLoan.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleRent.baml
+C:\Users\Morake\source\repos\Final_POE\obj\Debug\VehicleRentOrBuy.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\bin\Debug\Final_POE.exe.config
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\bin\Debug\Final_POE.exe
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\bin\Debug\Final_POE.pdb
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.csproj.AssemblyReference.cache
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Expenses.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeLoan.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeRent.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeRentOrBuy.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\MainWindow.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\ReadMeFile.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Savings.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleLoan.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleRent.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleRentOrBuy.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\App.g.cs
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE_MarkupCompile.cache
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE_MarkupCompile.lref
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Expenses.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeLoan.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeRent.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\HomeRentOrBuy.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\MainWindow.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\ReadMeFile.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Savings.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleLoan.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleRent.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\VehicleRentOrBuy.baml
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.g.resources
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.Properties.Resources.resources
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.csproj.GenerateResource.cache
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.csproj.CoreCompileInputs.cache
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.exe
+C:\Users\Morake\OneDrive\Documents\School\2nd Year\1st Semester\Programming 2A PROG6211\PROG6211_POE_19343382_Buti Tshepang Morake\POE\Final_POE\obj\Debug\Final_POE.pdb

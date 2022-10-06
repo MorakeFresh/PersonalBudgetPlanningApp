@@ -1,0 +1,285 @@
+﻿<Window x:Class="Final_POE.Savings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_POE"
+        mc:Ignorable="d"
+        Title="LOANS" Height="450" Width="800"
+        WindowStyle = "None"
+        ResizeMode = "NoResize"
+        Background="AliceBlue">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="413*"/>
+            <ColumnDefinition Width="274*"/>
+            <ColumnDefinition Width="113*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="MidnightBlue"  Grid.ColumnSpan = "3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="LOANS" Foreground="AliceBlue" Grid.Column="0"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold">
+            </TextBlock>
+
+            <Button x:Name="Btn_Exit" Content="EXIT" Grid.Column="2" Foreground="AliceBlue" FontSize="14" FontWeight="Medium"
+                    Margin="162,0,0,0" VerticalAlignment="Top" Height="25" Click="Btn_Exit_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Red"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button x:Name="Btn_Back" Content="BACK" Grid.Column="2" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" 
+                    HorizontalAlignment="Left" Margin="80,2,0,3" Width="82" Click="Btn_Back_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Red"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+        </Grid>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" Height="405" Margin="10,10,143,10" Grid.ColumnSpan="2">
+            <TextBlock Text="Save Towards Your Goals." Foreground="Black" FontSize="20"
+                FontWeight="Bold" Margin="10,10,180,0" Height="27" TextWrapping="Wrap">
+            </TextBlock>
+
+            <TextBlock Text="Please enter the following details." Foreground="Black" FontSize="15"
+                FontWeight="Bold" Margin="10,10,215,0" Height="25" TextWrapping="Wrap">
+            </TextBlock>
+
+            <Label Content="Goal" Foreground="Black" FontSize="15"
+                FontWeight="Medium" Height="30" Margin="10,0,369,0" RenderTransformOrigin="1.279,0.929"/>
+            <TextBox x:Name="txtBox_Goal" Margin="10,0,140,0" BorderBrush="MidnightBlue" TextChanged="txtBox_Goal_TextChanged" Height="50"/>
+
+            <Label Content="Savings Amount" Foreground="Black" FontSize="15"
+                FontWeight="Medium" Height="30" Margin="10,0,369,0" RenderTransformOrigin="1.279,0.929"/>
+            <TextBox x:Name="txtBox_SavingsAmount" Margin="10,0,394,0" BorderBrush="MidnightBlue" TextChanged="txtBox_SavingsAmount_TextChanged"/>
+
+            <TextBlock Foreground="Black" FontSize="15"
+                FontWeight="Bold" Margin="10,10,-17,0" Height="45" TextWrapping="Wrap"><Run Text="Interest is earned based on the Savings term"/><LineBreak/><Run Text="1 Year = 5%; 2 Years = 10%; 3 Years = 15%; 4 Years = 20%; 5 Years = 25%"/></TextBlock>
+
+            <Label Content="Savings Term" Foreground="Black" FontSize="15"
+                FontWeight="Bold" Height="30" Margin="10,0,369,0" RenderTransformOrigin="1.279,0.929"/>
+
+
+            <StackPanel Orientation="Horizontal" Height="91">
+                <Button x:Name="Btn_1Year" Content="1 YEAR" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Click="Btn_1Year_Click" Margin="0,0,0,52" Width="80">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="Btn_2Years" Content="2 YEARS" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Click="Btn_2Years_Click" Margin="0,0,0,52" Width="90">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="Btn_3Years" Content="3 YEARS" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Click="Btn_3Years_Click" Margin="0,0,0,52" Width="90">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="Btn_4Years" Content="4 YEARS" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Click="Btn_4Years_Click" Margin="0,0,0,52" Width="90">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="Btn_5Years" Content="5 YEARS" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Click="Btn_5Years_Click" Margin="0,0,0,52">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+            <Button x:Name="Btn_Submit" Content="SUBMIT" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Height="30" Margin="0,0,42,0" Click="Btn_Submit_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="MidnightBlue"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="HotPink"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="100" Height="25" CornerRadius="12" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="10,0"/>
+
+        <Grid Grid.Column="1" Grid.RowSpan="2" Margin="93,-354,-543,74"
+              Panel.ZIndex="-1" Grid.ColumnSpan="2">
+            <Grid.RenderTransform>
+                <RotateTransform Angle="50"/>
+            </Grid.RenderTransform>
+
+            <StackPanel Orientation="Horizontal" Margin="-350, 250, -255, -250">
+
+                <StackPanel RenderTransformOrigin="0.46,0.447">
+                    <Border Width="700" Height="35" Background="HotPink"
+                        Margin="150,0,0,0" CornerRadius="20"/>
+                    <Border Width="700" Height="35" Background="MidnightBlue"
+                        Margin="0,15,0,0" CornerRadius="20"/>
+                    <Border Width="700" Height="35" Background="HotPink"
+                        Margin="75,15,0,0" CornerRadius="20"/>
+                </StackPanel>
+
+                <StackPanel>
+                    <Border Width="700" Height="35" Background="HotPink"
+                        Margin="150,0,0,0" CornerRadius="20"/>
+                    <Border Width="700" Height="35" Background="MidnightBlue"
+                        Margin="0,15,0,0" CornerRadius="20"/>
+                    <Border Width="700" Height="35" Background="HotPink"
+                        Margin="75,15,0,0" CornerRadius="20"/>
+                </StackPanel>
+
+            </StackPanel>
+
+        </Grid>
+
+    </Grid>
+</Window>

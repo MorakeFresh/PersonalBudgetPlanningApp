@@ -1,0 +1,122 @@
+﻿<Window x:Class="Final_POE.ReadMeFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_POE"
+        mc:Ignorable="d"
+         Title="LOANS" Height="450" Width="800"
+        WindowStyle = "None"
+        ResizeMode = "NoResize"
+        Background="AliceBlue">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="413*"/>
+            <ColumnDefinition Width="387*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Background="MidnightBlue"  Grid.ColumnSpan = "2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="LOANS" Foreground="AliceBlue" Grid.Column="0"
+                       VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold">
+            </TextBlock>
+
+            <Button x:Name="Btn_Exit" Content="EXIT" Grid.Column="2" Foreground="AliceBlue" FontSize="14" FontWeight="Medium"
+                    Margin="162,0,0,0" VerticalAlignment="Top" Height="25" Click="Btn_Exit_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Red"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <Button x:Name="Btn_Back" Content="BACK" Grid.Column="2" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" 
+                    HorizontalAlignment="Left" Margin="80,2,0,0" VerticalAlignment="Top" Width="82" Click="Btn_Back_Click">
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Red"/>
+                        <Setter Property="Cursor" Value="Hand"/>
+
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="DarkRed"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+
+                <Button.Template>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Width="80" Height="20" CornerRadius="12" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+        </Grid>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" Height="405" Margin="10" Grid.ColumnSpan="2">
+
+            <StackPanel Height="363">
+                <ScrollViewer x:Name="ScrollBar" Margin="0,10,0,0" Height="355" >
+                    <TextBlock x:Name="txtBlock"
+                        Foreground="Black" FontSize="15"
+                        FontWeight="Medium" TextWrapping="Wrap" Height="1829" Width="759"><Run Text="Welcome to the LOANS App."/><LineBreak/><Run Text="This App is to help people to deal with their expenses and help them to figure out if they qualify for a Home loan or help rent property"/><Run Text=" "/><Run Text="and to figure out if they qualify for a vehicle loan or to rent a vehicle."/><Run Text=" "/><Run Text="The application will require the users to provide details about their finances and property &amp; vehicle they wish to acquire or rent."/><LineBreak/><Run Text="The application will then work out if the user will qualify to get a home loan or vehicle loan or qualify to rent a home or vehicle."/><LineBreak/><Run/><LineBreak/><Run Text="HOW TO RUN THE APP:"/><LineBreak/><Run Text="To run the app the users will need to have visual studio with C#"/><Run Text=" extensions "/><Run Text="installed."/><LineBreak/><Run/><LineBreak/><Run Text="HOW TO USE THE LOANS APP:"/><LineBreak/><Run Text="The user will be asked to:"/><LineBreak/><Run Text="1. Enter their gross monthly Income before deductions"/><LineBreak/><Run Text="2. Enter their monthly Groceries expenditure"/><LineBreak/><Run Text="3. Enter their monthly Water and Electricity expenditure"/><LineBreak/><Run Text="4. Enter their monthly Travel Costs"/><LineBreak/><Run Text="5. Enter their monthly Tele-Communications expenditure"/><LineBreak/><Run Text="6. Enter any other monthly expenditure"/><LineBreak/><Run Text="The application will calculate the users tax deduction"/><LineBreak/><Run/><LineBreak/><Run Text="After the user answers all the questions the application will ask the user if they want to buy a property or rent a property."/><LineBreak/><Run Text="If the user chooses to rent, the application will ask the user to:"/><LineBreak/><Run Text="1. Enter the Rental Amount"/><LineBreak/><Run Text="If the user chooses to buy property, the application will ask the user to:"/><LineBreak/><Run Text="1. Enter the Price of the property"/><LineBreak/><Run Text="2. Enter the Deposit Amount"/><LineBreak/><Run Text="3. Enter the Interest Rate"/><LineBreak/><Run Text="4. Enter the number of months they wish to repay the home loan"/><LineBreak/><Run/><LineBreak/><Run Text="Once the user enters the property details the application will calculate the total amount of the expenses including the home loan/rental amount, if the rent/monthly repayment exceeds 1/3 of the income the home loan/rental will not be granted and the user will"/><Run Text=" "/><Run Text="be informed. However if the total of the Rent/Monthly loan repayment does not exceed 1/3 of the income the home loan will be granted and rent/home loan repayment will be calculated and the user will be inform"/><Run Text="ed"/><Run Text="."/><LineBreak/><Run/><LineBreak/><Run Text="The program will then display a report after all the calculations for a home loan or renting a property."/><LineBreak/><Run/><LineBreak/><Run Text="Once the Home report is done the  the application will ask the user if they want to buy a vehicle or rent a vehicle."/><LineBreak/><Run Text="If the user chooses to rent, the application will ask the user to:"/><LineBreak/><Run Text="1. Enter vehicle model and make"/><LineBreak/><Run Text="2. Enter the Rental Amount"/><LineBreak/><Run Text="If the user chooses to buy a vehicle, the application will ask the user to:"/><LineBreak/><Run Text="1. Enter vehicle model and make"/><LineBreak/><Run Text="2. Enter the Price of the vehicle"/><LineBreak/><Run Text="3. Enter the Deposit Amount"/><LineBreak/><Run Text="4. Enter the Interest Rate"/><LineBreak/><Run Text="5. Enter the Insurance amount"/><LineBreak/><Run Text=" "/><LineBreak/><Run Text="Once the user enters the vehicle details the application will calculate the total amount of the expenses"/><Run Text=" "/><Run Text="including the home loan/rental amount and vehicle loan/rental amount, if the total of the expenses exceeds"/><Run Text=" "/><Run Text="75% of the income the vehicle loan/renal will not"/><Run Text=" "/><Run Text="be granted and the user will be informed. However if the total of the expenses does not exceed 75% of the income the vehicle loan/rental"/><Run Text=" "/><Run Text="will be granted and the monthly vehicle rent/loan repayment will be calculated and the user will be informed."/><LineBreak/><Run/><LineBreak/><Run Text="The program will then display a report after all the calculations for a vehicle loan or renting a vehicle."/><LineBreak/><Run/><LineBreak/><Run Text="After the vehicle rental or vehicle loan report has been displayed, the program will help the user to save up for a specific goal."/><LineBreak/><Run Text="1. The user will be ask what the goal is."/><LineBreak/><Run Text="2. The user will be asked for the goal amount."/><LineBreak/><Run Text="3. The user will have 5 choices to choose from which will determine the term of the savings and the interest that will be earned."/><LineBreak/><Run Text="4. The application will then work out the monthly savings for the user using the Future Value formula reversed."/><LineBreak/><Run Text="(Where Fv = "/><Run Text="f"/><Run Text="utu"/><Run Text="r"/><Run Text="e value(goal amount)"/><LineBreak/><Run Text="n = number of years "/><LineBreak/><Run Text="i = interest"/><LineBreak/><Run Text="x = initial amount (monthly saving)"/><LineBreak/><Run/><LineBreak/><Run Text="Fv = x [((1+i)^n) -1)] / i"/><LineBreak/><Run/><LineBreak/><Run Text="reversed formula"/><LineBreak/><Run Text="x = (Fv * i) / [((1+i)^n) -1)]"/><LineBreak/><Run Text=""/><LineBreak/><Run Text="After the calculations a saving report will be displayed and the user will be informed on how much to save monthly to reach their goal."/><LineBreak/><Run Text="The application will then close afterwards."/><LineBreak/><Run/><LineBreak/><Run Text="Feedback / "/><Run Text="Changes"/><LineBreak/><Run Text="Try catch implemented"/><LineBreak/><Run Text="Rent is no longer calculated for a pre"/><Run Text="-"/><Run Text="d"/><Run Text="e"/><Run Text="fined number of years or months."/><LineBreak/><Run Text="If Rental/Loan are unlikely repayments are no longer included."/><LineBreak/><Run Text="Array now generic list created in expense class and not loans class"/><LineBreak/><Run Text="References corrected"/><LineBreak/><Run/><LineBreak/><Run Text="Reference List/ Bibliography"/><LineBreak/><Run Text="Doyle, B. 2015. C# Programming: From Problem Analysis To Program Design. 5th ed. Boston. Cengage Learning"/><LineBreak/><Run Text="w3schools.2021. C# Tutorial.2021.[online]. Available at: https://www.w3schools.com/cs/ [Accessed: "/><Run Text="21 "/><Run Text="June 2021]."/></TextBlock>
+                </ScrollViewer>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="34,0,588,0" Height="30">
+                <Button x:Name="Btn_Start" Content="START" Foreground="AliceBlue" FontSize="14" FontWeight="Medium" Width="158" Click="Btn_Start_Click" Height="44" VerticalAlignment="Top" Margin="0,0,0,-14">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="MidnightBlue"/>
+                            <Setter Property="Cursor" Value="Hand"/>
+
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="HotPink"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="100" Height="25" CornerRadius="12" Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+
+        </StackPanel>
+        <ScrollBar Grid.Column="1" HorizontalAlignment="Left" Margin="7,419,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
